@@ -1,139 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vonda LaShea | Notary, Wedding Officiant & DNA Testing</title>
-<style>
-body, html {
-margin: 0;
-padding: 0;
-height: 100%;
-font-family: 'Helvetica Neue', sans-serif;
-overflow-x: hidden;
-background: linear-gradient(135deg, #000000, #4B0082);
-background-size: 400% 400%;
-animation: gradientShift 15s ease infinite;
-color: #f5f5f5;
-}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vonda LaShea | Mobile Notary, Wedding Officiant, DNA Testing</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #000000;
+      color: #FFD700; /* Gold text */
+      overflow-x: hidden;
+    }
 
-@keyframes gradientShift {
-0% { background-position: 0% 50%; }
-50% { background-position: 100% 50%; }
-100% { background-position: 0% 50%; }
-}
+    header {
+      background-color: #800080; /* Deep Purple */
+      text-align: center;
+      padding: 2rem;
+    }
 
-header {
-padding: 2rem;
-text-align: center;
-background-color: rgba(0,0,0,0.6);
-}
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: #FFD700;
+    }
 
-header h1 {
-margin: 0;
-font-size: 2.8rem;
-color: #FFD700;
-}
+    header p {
+      font-size: 1.3rem;
+      margin-top: 0.5rem;
+      color: #fff;
+    }
 
-header p {
-font-size: 1.2rem;
-margin-top: 0.5rem;
-color: #d3d3d3;
-}
+    nav {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 1rem;
+    }
 
-nav {
-background-color: rgba(51, 51, 51, 0.8);
-padding: 1rem;
-text-align: center;
-}
+    nav a {
+      color: #FFD700;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      font-size: 1.2rem;
+      transition: color 0.3s;
+    }
 
-nav a {
-color: #FFD700;
-text-decoration: none;
-margin: 0 1rem;
-font-weight: bold;
-font-size: 1.1rem;
-transition: color 0.3s;
-}
+    nav a:hover {
+      color: #800080;
+    }
 
-nav a:hover {
-color: #ffffff;
-}
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
 
-section {
-padding: 2rem;
-text-align: center;
-}
+    .services, .bio {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
 
-.services {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-margin-top: 2rem;
-}
+    .service-card, .bio-card {
+      background-color: #1a1a1a;
+      border: 2px solid #FFD700;
+      border-radius: 10px;
+      padding: 1.5rem;
+      width: 280px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
 
-.service-card {
-background-color: rgba(26, 26, 26, 0.85);
-border: 2px solid #FFD700;
-border-radius: 8px;
-margin: 1rem;
-padding: 1.5rem;
-width: 280px;
-transition: transform 0.3s, box-shadow 0.3s;
-}
+    .service-card:hover, .bio-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(255, 215, 0, 0.4);
+    }
 
-.service-card:hover {
-transform: translateY(-10px);
-box-shadow: 0 8px 20px rgba(255, 215, 0, 0.3);
-}
+    footer {
+      background-color: #800080;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #FFD700;
+    }
 
-footer {
-background-color: rgba(75, 0, 130, 0.8);
-padding: 1rem;
-text-align: center;
-font-size: 0.9rem;
-color: #FFD700;
-}
-</style>
+    .announcement {
+      background-color: #FFD700;
+      color: #000;
+      padding: 1rem;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  </style>
 </head>
 <body>
 
 <header>
-<h1>Vonda LaShea</h1>
-<p>Notary Services | Wedding Officiating | DNA Testing</p>
+  <h1>Vonda LaShea</h1>
+  <p>Mobile Notary | Wedding Officiant | DNA Testing</p>
 </header>
 
+<div class="announcement">
+  Open 24/7 | Mobile Services Available
+</div>
+
 <nav>
-<a href="#services">Services</a>
-<a href="#contact">Contact</a>
+  <a href="#services">Services</a>
+  <a href="#bio">About</a>
+  <a href="#contact">Contact</a>
 </nav>
 
 <section id="services">
-<h2 style="color:#FFD700;">My Services</h2>
-<div class="services">
-<div class="service-card">
-<h3>Notary Services</h3>
-<p>Reliable, professional notarization for your important documents, available at your convenience.</p>
-</div>
-<div class="service-card">
-<h3>Wedding Officiant</h3>
-<p>Bringing joy to your special day with customized, heartfelt wedding ceremonies.</p>
-</div>
-<div class="service-card">
-<h3>DNA Testing</h3>
-<p>Fast, confidential DNA testing services you can trust — for personal and legal needs.</p>
-</div>
-</div>
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service-card">
+      <h3>Notary Services</h3>
+      <p>Professional mobile notary service for all your important documents — fast and reliable.</p>
+    </div>
+    <div class="service-card">
+      <h3>Wedding Officiant</h3>
+      <p>Customized ceremonies to make your special day unforgettable and meaningful.</p>
+    </div>
+    <div class="service-card">
+      <h3>DNA Testing</h3>
+      <p>Confidential DNA testing for personal and legal purposes — trusted and accurate.</p>
+    </div>
+    <div class="service-card">
+      <h3>Drug Testing</h3>
+      <p>Coming Soon! Stay tuned for fast, discreet drug testing services.</p>
+    </div>
+  </div>
+</section>
+
+<section id="bio">
+  <h2>About Vonda</h2>
+  <div class="bio">
+    <div class="bio-card">
+      <p>Hi, I'm Vonda LaShea! I proudly offer professional notary, wedding officiating, and DNA testing services in Houston and the surrounding areas.  
+      <br><br>
+      I'm committed to making your life easier with 24/7 mobile service — bringing convenience right to your door.</p>
+    </div>
+  </div>
 </section>
 
 <section id="contact">
-<h2 style="color:#FFD700;">Get in Touch</h2>
-<p>Email: <a href="mailto:browndavonda@gmail.com" style="color:#FFD700;">browndavonda@gmail.com</a></p>
-<p>Phone: (346) 339-8711</p>
+  <h2>Contact</h2>
+  <p>Phone: <a href="tel:3463398711" style="color:#FFD700;">346-339-8711</a></p>
+  <p>Email: <a href="mailto:browndvonda@gmail.com" style="color:#FFD700;">browndvonda@gmail.com</a></p>
 </section>
 
 <footer>
-&copy; 2025 Vonda LaShea. All rights reserved.
+  &copy; 2025 Vonda LaShea. All rights reserved.
 </footer>
 
 </body>
